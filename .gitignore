@@ -1,41 +1,24 @@
-# Compiled Lua sources
-luac.out
+# OS-specific
+.DS_Store
+Thumbs.db
 
-# luarocks build files
-*.src.rock
+# Editor-specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# LÖVE2D files
+*.love
 *.zip
-*.tar.gz
 
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
+# Build/output folders
+build/
+dist/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Temp files
+*.log
+*.tmp
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
+# LuaRocks (if used)
+.luarocks/
